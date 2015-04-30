@@ -7,5 +7,5 @@ module.exports = function(app){
 	});
     
     //error handles
-    erros(app);
+    errors(app);
 }
