@@ -1,0 +1,32 @@
+{
+  "name": "mongooseBlog",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shutiao/mongooseBlog.git"
+  },
+  "keywords": [
+    "mongoose",
+    "express",
+    "blog",
+    "m101js",
+    "week7"
+  ],
+  "author": "shutiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shutiao/mongooseBlog/issues"
+  },
+  "homepage": "https://github.com/shutiao/mongooseBlog",
+  "dependencies": {
+    "express": "^4.12.3",
+    "jade": "^1.9.2",
+    "mongoose": "^4.0.2"
+  }
+}
