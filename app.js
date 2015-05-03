@@ -5,6 +5,8 @@ var routes = require('./routes');
 var models = require('./models');
 var middleware = require('./middleware');
 
+require('express-mongoose');
+
 mongoose.connect('mongodb://localhost', function (err){
 	if (err) throw err;
 	console.log('connected!');
